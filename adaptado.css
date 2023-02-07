@@ -1,14 +1,37 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 1500px) { 
+    html {
+        overflow: hidden;
+        height: 100vh;
+        width: 100vw;
+    }
+
     .social {
         margin-bottom: 5%;
     }
 
     .fotos {
-        margin-bottom: -22%;
+        margin-bottom: -30vw;
     }
 
+    .circulo {
+        display: inline;
+        position: absolute;
+        background-color: rgb(252, 47, 47);
+        width: 900px;
+        height: 900px;
+        border-radius: 50%;
+        color: rgba(0, 0, 0, 0.938);
+        bottom: -30%;
+        right: -10%;
+        overflow: hidden;
+        /* display: flex;
+        margin: 0 auto;
+        align-self: flex-end;
+        margin-right: -350px;
+        margin-bottom: -500px;*/
+    }
 }
 
 @media screen and (max-width: 1100px) { 
